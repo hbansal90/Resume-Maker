@@ -1,0 +1,75 @@
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 0;
+  color: black;
+  height: fit-content;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+.header::-webkit-scrollbar{
+  height: 7px;
+}
+.height::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-color: rgb(69, 48, 101);
+}
+.toolbar {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.colors .color {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #239ce2;
+}
+.colors .active {
+  border: 3px solid #000;
+}
+
+.toolbar button {
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color:rgb(69, 48, 101);
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toolbar button svg {
+background-color: rgb(69, 48, 101);
+  height: 30px;
+  width: 30px;
+  color: chalk;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+}
